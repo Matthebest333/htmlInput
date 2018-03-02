@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inputs</title>
+</head>
+
+<body>
+    <h1>Login:</h1>
+
+  
+    <!-- INPUT NESTED IN LABELS 
+        <form>
+        <label>username: <input type="text"></label>
+        <label>Password: <input type="password"></label>
+        <label>Confirm:  <button>Next</button></label>
+    </form> -->
+
+    <form>
+        <label for="email">email:</label>
+        <input id="email" type="email" required>
+
+        <label for="password">password: </label>
+        <input id="password" type="password" required>
+
+        <button>Next (submit)</button>
+    </form>
+    <form>
+        <label for="skill">skilled:</label>
+        <input id="skill" type="checkbox">
+    </form>
+    <form>
+        <label for="male">male:</label>
+        <input name="gender" value="male" id="male" type="radio">
+
+        <label for="female">female:</label>
+        <input name="gender" value="female" id="female" type="radio">
+
+   
+        <h3>Favourite color:</h3>  
+        <select name="favColor">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Yellow</option>
+        </select>
+
+        <textarea name="paragraph" placeholder="enter a paragraph here:" rows="8" cols="30"></textarea>
+
+        <button>Go</button>
+    </form>
+    
+
+</body>
+
+</html>
